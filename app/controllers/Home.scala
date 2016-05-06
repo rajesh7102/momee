@@ -8,7 +8,7 @@ import play.api.mvc._
 class Home @Inject() extends Controller {
 
   def index = Action {
-    Ok("HelloWorld!")
+    Ok(views.html.index("M . O . M . E . E"))
   }
 
 }
